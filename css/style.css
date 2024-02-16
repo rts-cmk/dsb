@@ -14,11 +14,11 @@ body {
 }
 
 .heading {
-    font-size: 3rem;
+    font-size: 3em;
     display: flex;
     align-items: center;
     gap: 5px;
-    margin-bottom: 2rem;
+    margin: 1rem 0;
 }
 
 .heading__image {
@@ -52,7 +52,7 @@ body {
 }
 
 .departures__header:first-child {
-    width: 14ch;
+    width: 16ch;
 }
 
 .departures__header:nth-child(2) {
@@ -120,6 +120,34 @@ body {
 
 .departures__label--ic {
     background-color: var(--ic-red);
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 55%;
+    }
+
+    .wrapper {
+        padding: 0;
+    }
+
+    .heading {
+        justify-content: center;
+        font-size: 2em;
+    }
+    
+    .departures__header, .departures__cell {
+        padding: .4rem .1rem;
+        margin: 0;
+    }
+
+    .departures__header:nth-child(5) {
+        width: 60%;
+    }
+
+    .departures__image {
+        height: 1rem;
+    }
 }
 
 

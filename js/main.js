@@ -17,13 +17,15 @@ roskildeStation.addEventListener('update', event => {
         const name = `${product.label} ${train.TrainId}`;
         const scheduled = train.ScheduleTimeDeparture.substring(11, 16);
         const delay = train.DelayTime.substring(11, 16);
-        const destination = stations.data.find(entry => entry.key === train.Routes[0].DestinationStationId)?.value ?? null;
+        const destination = stations.data.find(entry => entry.key === train.Routes[0].DestinationStationId)?.value;
         const track = train.TrackCurrent;
         const information = event.detail.remarks.find(remark => remark.train_id === train.TrainId);
 
         const departure = delay === scheduled || train.DelayTime === '01-01-0001 00:00:00' ? scheduled : `<s>${scheduled}</s> ${delay}`;
 
         if (!destination) return;
+
+        //if (destination.)
 
 
         output += `
