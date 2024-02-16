@@ -1,0 +1,434 @@
+{
+    "data": [
+        {
+            "product": "RV",
+            "toc": "DSB",
+            "label": "Re",
+            "backgroundColor": "#639830",
+            "color": "#FFF"
+        },
+        {
+            "product": "RØ",
+            "toc": "DSB",
+            "label": "Re",
+            "backgroundColor": "#639830",
+            "color": "#FFF"
+        },
+        {
+            "product": "RR",
+            "toc": "DSB",
+            "label": "Re",
+            "backgroundColor": "#639830",
+            "color": "#FFF"
+        },
+        {
+            "product": "ØP",
+            "toc": "DSB",
+            "label": "Re",
+            "backgroundColor": "#639830",
+            "color": "#FFF"
+        },
+        {
+            "product": "ØR",
+            "toc": "DSB",
+            "label": "Re",
+            "backgroundColor": "#47A440",
+            "color": "#FFF"
+        },
+        {
+            "product": "ØK",
+            "toc": "DSB",
+            "label": "Re",
+            "backgroundColor": "#639830",
+            "color": "#FFF"
+        },
+        {
+            "product": "ØD",
+            "toc": "DSB",
+            "label": "Re",
+            "backgroundColor": "#639830",
+            "color": "#FFF"
+        },
+        {
+            "product": "ØF",
+            "toc": "DSB",
+            "label": "Re",
+            "backgroundColor": "#639830",
+            "color": "#FFF"
+        },
+        {
+            "product": "SK",
+            "toc": "DSB",
+            "label": "SK",
+            "backgroundColor": "#000",
+            "color": "#FFF"
+        },
+        {
+            "product": "EP",
+            "toc": "DSB",
+            "label": "Re",
+            "backgroundColor": "#47A440",
+            "color": "#FFF"
+        },
+        {
+            "product": "IR",
+            "toc": "DSB",
+            "label": "Re",
+            "backgroundColor": "#639830",
+            "color": "#FFF"
+        },
+        {
+            "product": "P",
+            "toc": "BDK",
+            "label": "P",
+            "backgroundColor": "#009BF1",
+            "color": "#FFF"
+        },
+        {
+            "product": "FX",
+            "toc": "-",
+            "label": "Re",
+            "backgroundColor": "#47A440",
+            "color": "#FFF"
+        },
+        {
+            "product": "IC",
+            "toc": "DSB",
+            "label": "IC",
+            "backgroundColor": "#EF4130",
+            "color": "#FFF"
+        },
+        {
+            "product": "IL",
+            "toc": "DSB",
+            "label": "ICL+",
+            "fullProductName": "ICL+",
+            "backgroundColor": "#F28596",
+            "color": "#000"
+        },
+        {
+            "product": "L",
+            "toc": "DSB",
+            "label": "ICL",
+            "backgroundColor": "#FDBA58",
+            "color": "#000"
+        },
+        {
+            "product": "RA",
+            "toc": "Arriva",
+            "label": "RA",
+            "backgroundColor": "#00A1AC",
+            "color": "#FFF"
+        },
+        {
+            "product": "AF",
+            "toc": "Arriva",
+            "label": "RA",
+            "backgroundColor": "#00A1AC",
+            "color": "#FFF"
+        },
+        {
+            "product": "AE",
+            "toc": "Arriva",
+            "label": "RA",
+            "backgroundColor": "#00A1AC",
+            "color": "#FFF"
+        },
+        {
+            "product": "RX",
+            "toc": "Arriva",
+            "label": "Rex",
+            "backgroundColor": "#7A9A17",
+            "color": "#FFF"
+        },
+        {
+            "product": "SJ",
+            "toc": "SJ",
+            "label": "SJ",
+            "fullProductName": "SJ",
+            "backgroundColor": "#767676",
+            "color": "#FFF"
+        },
+        {
+            "product": "SP",
+            "toc": "SJ",
+            "label": "SJ",
+            "fullProductName": "SJ",
+            "backgroundColor": "#767676",
+            "color": "#FFF"
+        },
+        {
+            "product": "EC",
+            "toc": "DSB",
+            "label": "EC",
+            "backgroundColor": "#2A6996",
+            "color": "#FFF"
+        },
+        {
+            "product": "IE",
+            "toc": "DSB",
+            "label": "IE",
+            "backgroundColor": "#767676",
+            "color": "#FFF"
+        },
+        {
+            "product": "IP",
+            "toc": "-",
+            "label": "IP",
+            "backgroundColor": "#767680",
+            "color": "#FFF"
+        },
+        {
+            "product": "LP",
+            "toc": "Regionstog A/S",
+            "label": "L",
+            "backgroundColor": "#041E42",
+            "color": "#FFF"
+        },
+        {
+            "product": "PP",
+            "toc": "Regionstog A/S",
+            "label": "L",
+            "backgroundColor": "#041E42",
+            "color": "#FFF"
+        },
+        {
+            "product": "MP",
+            "toc": "Midtjyske Jernbaner",
+            "label": "MJ",
+            "backgroundColor": "#9B2310",
+            "color": "#FFF"
+        },
+        {
+            "product": "PP",
+            "toc": "Regionstog A/S",
+            "label": "PP",
+            "backgroundColor": "#9B2310",
+            "color": "#FFF"
+        },
+        {
+            "product": "NP",
+            "toc": "Nordjyske Jernbaner",
+            "label": "RE",
+            "backgroundColor": "#003087",
+            "color": "#FFF"
+        },
+        {
+            "product": "PP",
+            "toc": "Regionstog A/S",
+            "label": "RE",
+            "backgroundColor": "#003087",
+            "color": "#FFF"
+        },
+        {
+            "product": "PF",
+            "toc": "-",
+            "label": "PP",
+            "backgroundColor": "#009BF1",
+            "color": "#FFF"
+        },
+        {
+            "product": "HV",
+            "toc": "SNÄLLTÅGET",
+            "label": "SJ/EN",
+            "fullProductName": "SJ Euro Night",
+            "backgroundColor": "#767676",
+            "color": "#FFF"
+        },
+        {
+            "product": "RS",
+            "toc": "SNÄLLTÅGET",
+            "label": "ST",
+            "fullProductName": "Snälltåget",
+            "backgroundColor": "#F2FE50",
+            "color": "#000"
+        },
+        {
+            "product": "VP",
+            "toc": "-",
+            "label": "V",
+            "backgroundColor": "#000000",
+            "color": "#FFF"
+        },
+        {
+            "product": "Ae.TRAINBUS",
+            "lineName": "rød",
+            "color": "#FFF",
+            "backgroundColor": "#F03C1F",
+            "label": "Red"
+        },
+        {
+            "product": "Ae.TRAINBUS",
+            "lineName": "blå",
+            "color": "#FFF",
+            "backgroundColor": "#009DF4",
+            "label": "Blue"
+        },
+        {
+            "product": "Ae.TRAINBUS",
+            "lineName": "grøn",
+            "color": "#FFF",
+            "backgroundColor": "#50B12C",
+            "label": "Green"
+        },
+        {
+            "product": "Ae.TRAINBUS",
+            "lineName": "lilla",
+            "color": "#FFF",
+            "backgroundColor": "#7670B3",
+            "label": "Lilac"
+        },
+        {
+            "product": "Ae.TRAINBUS",
+            "lineName": "orange",
+            "color": "#000",
+            "backgroundColor": "#EF7C00",
+            "label": "Orange"
+        },
+        {
+            "product": "Ae.TRAINBUS",
+            "lineName": "gul",
+            "color": "#000",
+            "backgroundColor": "#FDC300",
+            "label": "Yellow"
+        },
+        {
+            "product": "Ae.TRAINBUS",
+            "lineName": "brun",
+            "color": "#FFF",
+            "backgroundColor": "#7A3F04",
+            "label": "Brown"
+        },
+        {
+            "product": "Ae.TRAINBUS",
+            "lineName": "pink",
+            "color": "#FFF",
+            "backgroundColor": "#E90596",
+            "label": "Pink"
+        },
+        {
+            "product": "Ae.TRAINBUS",
+            "lineName": "turkis",
+            "color": "#000",
+            "backgroundColor": "#67C1BF",
+            "label": "Turquoise"
+        },
+        {
+            "product": "Ae.TRAINBUS",
+            "lineName": "sort",
+            "color": "#FFF",
+            "backgroundColor": "#000000",
+            "label": "Black"
+        },
+        {
+            "product": "Ae.TRAINBUS",
+            "lineName": "default",
+            "color": "#000",
+            "backgroundColor": "#FFFFFF",
+            "label": ""
+        },
+        {
+            "lineName": "A",
+            "label": "A",
+            "backgroundColor": "#00B2EF",
+            "color": "white"
+        },
+        {
+            "lineName": "B",
+            "label": "B",
+            "backgroundColor": "#50B848",
+            "color": "white"
+        },
+        {
+            "lineName": "BX",
+            "label": "Bx",
+            "backgroundColor": "#A6CE39",
+            "color": "white"
+        },
+        {
+            "lineName": "C",
+            "label": "C",
+            "backgroundColor": "#F58A1F",
+            "color": "white"
+        },
+        {
+            "lineName": "C1",
+            "label": "C1",
+            "backgroundColor": "#F58A1F",
+            "color": "white"
+        },
+        {
+            "lineName": "C2",
+            "label": "C2",
+            "backgroundColor": "#F58A1F",
+            "color": "white"
+        },
+        {
+            "lineName": "E",
+            "label": "E",
+            "backgroundColor": "#7670B2",
+            "color": "white"
+        },
+        {
+            "lineName": "F",
+            "label": "F",
+            "backgroundColor": "#FFC20E",
+            "color": "#424241"
+        },
+        {
+            "lineName": "H",
+            "label": "H",
+            "backgroundColor": "#EF4130",
+            "color": "white"
+        },
+        {
+            "product": "Ae.STRAINBUS",
+            "lineName": "rød",
+            "color": "#FFF",
+            "backgroundColor": "#F03C1F",
+            "label": "Red"
+        },
+        {
+            "product": "Ae.STRAINBUS",
+            "lineName": "blå",
+            "color": "#FFF",
+            "backgroundColor": "#009DF4",
+            "label": "Blue"
+        },
+        {
+            "product": "Ae.STRAINBUS",
+            "lineName": "grøn",
+            "color": "#FFF",
+            "backgroundColor": "#50B12C",
+            "label": "Green"
+        },
+        {
+            "product": "Ae.STRAINBUS",
+            "lineName": "lilla",
+            "color": "#FFF",
+            "backgroundColor": "#7670B3",
+            "label": "Lilac"
+        },
+        {
+            "product": "Ae.STRAINBUS",
+            "lineName": "orange",
+            "color": "#000",
+            "backgroundColor": "#EF7C00",
+            "label": "Orange"
+        },
+        {
+            "product": "Ae.STRAINBUS",
+            "lineName": "sort",
+            "color": "#FFF",
+            "backgroundColor": "#000000",
+            "label": ""
+        },
+        {
+            "product": "Ae.STRAINBUS",
+            "lineName": "default",
+            "color": "#000",
+            "backgroundColor": "#FFFFFF",
+            "label": ""
+        }
+    ]
+}
