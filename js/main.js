@@ -45,10 +45,10 @@ roskildeStation.addEventListener('update', event => {
             <ul class="departures__list"> 
             ${information.map((message, index) => {
                 return `
-                    <li>
+                    <li class="departures__list-item">
                         <img class="departures__image" src="images/icons/${message.icon}.svg" alt="">
                         <div class="departures__information" ${message.color ? `style="color: ${message.color};"` : ''}>
-                            <p${message.text.length > 20 ? ' class="departures__marquee"' : ''}">${message.text}</p>
+                            <p${message.text.length > 40 ? ' class="departures__marquee"' : ''}">${message.text}</p>
                         </div>
                     </li>
                 `
@@ -61,6 +61,9 @@ roskildeStation.addEventListener('update', event => {
 
     setInterval( () => {
         [...document.querySelectorAll('.departures__list')].forEach(list => {
+
+            if (list.childNodes.length < 2) return;
+
             list.scrollTo({
                 top: Math.floor(list.scrollHeight / list.children.length) + 1,
                 behavior: 'smooth'
@@ -71,4 +74,4 @@ roskildeStation.addEventListener('update', event => {
     }, 7000);
 
     tableElement.tBodies[0].innerHTML = output;
-}, { once: true });
+});

@@ -35,7 +35,7 @@ body {
 .departures {
     width: 100%;
     border-collapse: collapse;
-    table-layout: fixed;
+   /*  table-layout: fixed; */
 }
 
 .cancelled, .departures__row--cancelled, .departures__row--cancelled s{
@@ -50,14 +50,13 @@ body {
     padding: .5rem 1rem;
     text-align: left;
     white-space: nowrap;
-    overflow: hidden;
 }
 
 .departures__header {
     font-weight: normal;
 }
 
-.departures__header:first-child {
+/* .departures__header:first-child {
     width: 16ch;
 }
 
@@ -66,24 +65,23 @@ body {
 }
 
 .departures__header:nth-child(3) {
-    width: 50%;
+    width: min-content;
 }
 
 .departures__header:nth-child(4) {
     width: 7ch;
 }
-
+*/
 .departures__header:nth-child(5) {
     width: 100%;
-}
+} 
 
 .departures__information {
-    display: inline-block;
-    width: 95%;
     overflow: hidden;
     vertical-align: middle;
     position: relative;
     color: black;
+    flex: 1;
 }
 
 .departures__information:has(.departures__marquee)::after {
@@ -100,11 +98,11 @@ body {
     list-style: none;
     padding: 0;
     height: 1.4rem;
-    overflow: hidden;
+    width: 100%;
 }
 
 .departures__list-item {
-    overflow: hidden;
+    display: flex;
 }
 
 .departures__row:nth-child(odd) .departures__information:has(.departures__marquee)::after {
@@ -113,6 +111,8 @@ body {
 
 .departures__marquee {
     animation: marquee 10s linear infinite;
+    position: absolute;
+    white-space: nowrap;
 }
 
 .departures__image {
@@ -159,7 +159,7 @@ body {
 
 @media screen and (max-width: 800px) {
     body {
-        font-size: 55%;
+        font-size: 60%;
     }
 
     .wrapper {
@@ -176,18 +176,10 @@ body {
         margin: 0;
     }
 
-    .departures__header:nth-child(5) {
-        width: 60%;
-    }
-
     .departures__image {
         height: 1rem;
     }
-
-    .departures__label {
-        max-width: 12ch;
-    }
-
+    
     .departures__list {
         height: 1rem;
     }
