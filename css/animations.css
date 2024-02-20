@@ -1,4 +1,26 @@
+delay-1s { animation-delay: 1s }
+delay-2s { animation-delay: 2s }
+delay-3s { animation-delay: 3s }
+delay-4s { animation-delay: 4s }
+delay-5s { animation-delay: 5s }
+
+
 @keyframes marquee {
-    0% { transform: translate(100%, 0); }
-  100% { transform: translate(-120%, 0); }
+    0% { transform: translateX(100%); }
+  100% { transform: translateX(-200%); }
   }
+
+@keyframes flash {
+    0% { opacity: 0; }
+   20% { opacity: 1; }
+   40% { opacity: 0; }
+   60% { opacity: 1; }
+   80% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes scroll-up {
+    0% { transform: translateY(0); }
+  100% { height: 0; transform: translateY(-100%);}
+}
+

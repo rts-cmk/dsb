@@ -1,5 +1,11 @@
 :root {
     --re-green: rgb(99, 152, 48);
     --l-blue: rgb(4, 30, 66);
+    --ec-blue: rgb(42, 105, 150);
     --ic-red: rgb(239, 65, 48);
+    --icl-yellow: rgb(253, 186, 88);
+    --icl-plus-pink: rgb(242, 133, 150);
+    --sj-gray: rgb(118, 118, 118);
+
+    --cancelled: rgb(255, 55, 54);
 }
